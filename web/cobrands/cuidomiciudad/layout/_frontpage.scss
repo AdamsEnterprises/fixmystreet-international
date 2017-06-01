@@ -1,10 +1,8 @@
-.frontpage-hero,
-.frontpage-types,
-.frontpage-steps {
-    padding: 3em 0;
-}
-
 .frontpage-hero {
+    // Less padding-top than the other sections, because
+    // #site-header already has a lot of padding-bottom.
+    padding: 1em 0 3em 0;
+
     h1 {
         font-size: 2.5em;
     }
@@ -16,6 +14,11 @@
 
 .frontpage-search {
     font-size: 1.2em;
+}
+
+.frontpage-types,
+.frontpage-steps {
+    padding: 3em 0;
 }
 
 .frontpage-types {
