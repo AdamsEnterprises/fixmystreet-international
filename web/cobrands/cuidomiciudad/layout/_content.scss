@@ -3,12 +3,6 @@ body.frontpage .table-cell .content {
     margin: 0; // down from 3em 0.5em -1em (!!)
 }
 
-.container {
-    width: auto;
-    max-width: 60em;
-    padding: 0 1em;
-}
-
 body.authpage {
     .table-cell > .container {
         background-color: transparent;
